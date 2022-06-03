@@ -1,5 +1,4 @@
 <script setup>
-import TheWelcome from "@/components/TheWelcome.vue";
 import Navigation from "@/components/Navigation.vue";
 </script>
 

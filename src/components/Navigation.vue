@@ -1,5 +1,5 @@
 <template>
-  <h1>Navigation hellow</h1>
+  <h1>Navigation hello</h1>
 </template>
 
 <script>
