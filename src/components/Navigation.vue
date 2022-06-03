@@ -1,15 +1,9 @@
 <template>
-  <h1>Navigation hello</h1>
+  <h1 class="underline text-red-700">Navigation hello</h1>
 </template>
 
 <script>
 export default {
-  components: {
-    Navigation
-  }
-}
+  name: "Navigation-bar",
+};
 </script>
-
-<style>
-
-</style>
