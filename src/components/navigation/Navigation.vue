@@ -51,6 +51,7 @@
     <!-- / Contact -->
 
     <!-- Language switch -->
+    <locale />
     <!-- / Language switch -->
 
     <!-- Github Repo -->
@@ -72,7 +73,9 @@
 </template>
 
 <script>
+import Locale from "./Locale.vue";
 export default {
+  components: { Locale },
   name: "Navigation-bar",
 };
 </script>
