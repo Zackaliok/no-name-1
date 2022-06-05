@@ -1,6 +1,11 @@
 {
     "messages": {
       "hello": "Hello world!"
+    },
+    "navigation": {
+      "home": "Home",
+      "projects": "Projects",
+      "skills": "Skills"
     }
 }
   

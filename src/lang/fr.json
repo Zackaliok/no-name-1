@@ -1,6 +1,11 @@
 {
     "messages": {
       "hello": "Salut monde!"
+    },
+    "navigation": {
+      "home": "Accueil",
+      "projects": "Projets",
+      "skills": "Compétences"
     }
 }
   
