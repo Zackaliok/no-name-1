@@ -5,7 +5,7 @@
       <span
         class="text-slate-500 border rounded-lg border-slate-500 p-2 hover:border-slate-400 hover:text-slate-400 hover:bg-slate-800 duration-500"
       >
-        <a href="#">Home</a>
+        <a href="#">{{ $t("navigation.home") }}</a>
       </span>
     </div>
     <!-- / LandingPage -->
@@ -15,7 +15,7 @@
       <span
         class="text-slate-500 border rounded-lg border-slate-500 p-2 hover:border-slate-400 hover:text-slate-400 hover:bg-slate-800 duration-500"
       >
-        <a href="#">Projects</a>
+        <a href="#">{{ $t("navigation.projects") }}</a>
       </span>
     </div>
     <!-- / Personnal projects -->
@@ -25,7 +25,7 @@
       <span
         class="text-slate-500 border rounded-lg border-slate-500 p-2 hover:border-slate-400 hover:text-slate-400 hover:bg-slate-800 duration-500"
       >
-        <a href="#">Skills</a>
+        <a href="#">S{{ $t("navigation.skills") }}</a>
       </span>
     </div>
     <!-- / Skills -->
