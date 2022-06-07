@@ -51,7 +51,14 @@
     <!-- / Contact -->
 
     <!-- Language switch -->
-    <locale />
+    <div class="flex flex-row m-4">
+      <span
+        class="text-slate-500 border rounded-lg border-slate-500 p-2 hover:border-slate-400 hover:text-slate-400 hover:bg-slate-800 duration-500"
+      >
+        <locale />
+      </span>
+    </div>
+    
     <!-- / Language switch -->
 
     <!-- Github Repo -->

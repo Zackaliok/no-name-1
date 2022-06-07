@@ -4,7 +4,7 @@ import messages_fr from "@/lang/fr";
 import messages_en from "@/lang/en";
 
 export const i18n = VueI18n.createI18n({
-  locale: "fr", // set locale
+  locale: "en", // set locale
   fallbackLocale: "en", // set fallback locale
   messages: {
     fr: messages_fr,
@@ -12,13 +12,14 @@ export const i18n = VueI18n.createI18n({
   },
 });
 
-const loadedLanguages = ["en"];
+const loadedLanguages = ["en", "fr"];
 
 export const languagesAvailable = ["en", "fr"];
 
 function setI18nLanguage(lang) {
   i18n.locale = lang;
   document.querySelector("html").setAttribute("lang", lang);
+  console.log("On set la lang : " + lang);
   return lang;
 }
 
