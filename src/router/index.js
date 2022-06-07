@@ -28,7 +28,7 @@ const router = createRouter({
     {
       path: `/${views.CONTACT}`,
       name: "contact",
-      component: () => import("../views/ContactView.vue"),
+      component: () => import("../views/Contact.vue"),
     },
     // Back Office Section
     {
