@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
+import views from "../plugins/declarations/views";
 import Home from "../views/Home.vue";
 
 const router = createRouter({
@@ -10,18 +11,31 @@ const router = createRouter({
       component: Home,
     },
     {
-      path: "/about",
-      name: "about",
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import("../views/AboutView.vue"),
+      path: `/${views.PROJECTS}`,
+      name: "projects",
+      component: () => import("../views/Projects.vue"),
     },
     {
-      path: "/contact",
+      path: `/${views.SKILLS}`,
+      name: "skills",
+      component: () => import("../views/Skills.vue"),
+    },
+    {
+      path: `/${views.CV}`,
+      name: "cv",
+      component: () => import("../views/Cv.vue"),
+    },
+    {
+      path: `/${views.CONTACT}`,
       name: "contact",
       component: () => import("../views/ContactView.vue"),
-    }
+    },
+    // Back Office Section
+    {
+      path: `/${views.BO}`,
+      name: "backOfficeHome",
+      component: () => import("../views/bo/BO-Home.vue"),
+    },
   ],
 });
 

@@ -1,5 +1,10 @@
 <template>
-  <img :src="this.flag" :alt="this.locale" @click="changeLocalization()" />
+  <img
+    :src="this.flag"
+    :alt="this.locale"
+    @click="changeLocalization()"
+    class="text-slate-500 border rounded-lg border-slate-500 p-2 hover:border-slate-400 hover:text-slate-400 hover:bg-slate-800 duration-500"
+  />
 </template>
 
 <script>
@@ -28,6 +33,6 @@ export default {
 
 <style scoped>
 img {
-  width: 24px;
+  width: 2.6rem;
 }
 </style>
